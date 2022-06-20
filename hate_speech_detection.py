@@ -59,7 +59,6 @@ clf.fit(X_train,y_train)
 
 clf.score(X_test,y_test)
 
-pip install streamlit
 
 def hate_speech_detection():
     import streamlit as st
